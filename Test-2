@@ -1,0 +1,52 @@
+//
+// Created by kmhtwe on 12/18/2023.
+//
+#include<stdio.h>
+
+int main() {
+    int i, j, roll[3], s1, s2, s3, s4, s5, s6, marks, pass, fail, distinction;
+
+    printf("Enter student-%d roll number: \n", i + 1);
+    scanf("%d", &roll[i]);
+
+    for (i = 0; i < 3; i++) {
+        for (j = 0; j < 6; j++) {
+            if (marks > 100) {
+                printf("You've entered wrong mark:\n");
+
+                for (j = 0; j < 3; j++) {
+                    if (marks >= 40) {
+                        printf("PASS\n");
+                    } else if (marks >= 80) {
+                        printf("DISTINCTION\n");
+                    } else {
+                        printf("FAIL\n");
+
+    printf("Enter 1st subject mark:");
+    scanf("%d", &s1);
+    printf("Enter 2nd subject mark:");
+    scanf("%d", &s2);
+    printf("Enter 3rd subject mark:");
+    scanf("%d", &s3);
+    printf("Enter 4th subject mark:");
+    scanf("%d", &s4);
+    printf("Enter 5th subject mark:");
+    scanf("%d", &s5);
+    printf("Enter 6th subject mark:");
+    scanf("%d", &s6);
+
+                    }
+                }
+            }
+        }
+
+    }
+//    for (i = 0; i < 3; i++) {
+
+        printf("PASS:\n");
+        printf("FAIL:\n");
+        printf("DISTINCTION");
+
+//}
+return 0;
+}
