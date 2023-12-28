@@ -1,0 +1,40 @@
+//
+// Created by kmhtwe on 12/15/2023.
+// Simple Calculator
+#include"stdio.h"
+
+int main(){
+
+    int a, b, option;
+
+    printf("Enter your option:\n");
+    printf("1. Addition\n 2. Substraction\n 3. Multiplication\n 4. Division\n\n");
+    scanf("%d", &option);
+
+    printf("Enter first number\n");
+    scanf("%d", &a);
+    printf("Enter second number\n");
+    scanf("%d", &b);
+
+    if(option == 1){
+        printf("Addition of %d and %d is %d\n", a, b, (a+b));
+    }
+    else if(option == 2){
+        printf("Substitution of %d and %d is %d\n", a, b, (a-b));
+    }
+    else if(option == 3){
+        printf("Multiplication of %d and %d is %d\n", a, b, (a*b));
+    }
+    else if(option == 4)
+    {
+        if(b!=0)
+            printf("Division of %d and %d is %d\n", a, b, (a/b));
+        else
+            (Number cannot be divided by 0\n);
+
+    }  else{
+        printf("You've entered wrong option\n")
+    }
+
+    return 0;
+}
